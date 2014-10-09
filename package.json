@@ -13,6 +13,8 @@
     "proxy",
     "hooks"
   ],
+  "repository": "git://github.com/finn-no/object-proxy-js",
+  "bugs": "https://github.com/finn-no/object-proxy-js/issues",
   "author": "FINN.no AS",
   "license": "MIT",
   "devDependencies": {

@@ -1,4 +1,4 @@
-# object-proxy [WIP]
+# object-proxy [WIP] [![travis status](https://api.travis-ci.org/finn-no/object-proxy-js.png)](http://travis-ci.org/finn-no/object-proxy-js)
 
 Module to wrap a proxy object around any object, primarly for method invocation hooks.
 
