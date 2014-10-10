@@ -65,7 +65,7 @@ proxied.greet('world');
 // Hello world
 
 console.log(history.recordings);
-// greet('world')
+// [ 'greet("world")' ]
 ```
 
 Running sample in [samples/invokeHistory.js](./samples/invokeHistory.js)
