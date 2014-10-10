@@ -4,10 +4,11 @@
   "description": "Wrap a proxy object around any object for method invocation hooks",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "util"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/*.test.js test/**/*.test.js"
   },
   "keywords": [
     "proxy",

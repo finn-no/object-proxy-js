@@ -1,7 +1,7 @@
 var assert = require('chai').assert;
 var sinon = require('sinon');
 
-var proxy = require('../');
+var proxyObject = require('../');
 
 function OriginalClass() {
 
@@ -37,7 +37,7 @@ describe('Object proxy hooks', function(){
     beforeEach(function() {
         beforeFn = sinon.spy();
         afterFn = sinon.spy();
-        proxied = proxy(originalObj, {
+        proxied = proxyObject(originalObj, {
             before: beforeFn,
             after: afterFn
         });

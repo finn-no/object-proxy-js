@@ -45,3 +45,27 @@ proxied.greet('world');
 // Hello world
 // just after greet was called
 ```
+
+### Utilities
+
+#### invoke history
+
+Record history of all method invocations on the proxied object.
+
+```js
+var objectProxy = require('object-proxy');
+var invokeHistory = require('object-proxy/util/invokeHistory');
+
+var history = invokeHistory.create();
+var proxied = objectProxy(originalObj, {
+    after: history.recorder
+});
+
+proxied.greet('world');
+// Hello world
+
+console.log(history.recordings);
+// greet('world')
+```
+
+Running sample in [samples/invokeHistory.js](./samples/invokeHistory.js)
