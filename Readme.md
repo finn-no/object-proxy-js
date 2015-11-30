@@ -1,3 +1,6 @@
+# DEPRECATED
+This project is not maintained, use ES6 proxies instead! Project not deleted as other some internal projects are still using it.
+
 # object-proxy [WIP] [![travis status](https://api.travis-ci.org/finn-no/object-proxy-js.png)](http://travis-ci.org/finn-no/object-proxy-js)
 
 Module to wrap a proxy object around any object, primarly for method invocation hooks.
